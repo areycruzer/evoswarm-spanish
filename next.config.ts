@@ -16,10 +16,6 @@ const nextConfig: NextConfig = {
       },
     ],
   },
-  outputFileTracingRoot: path.resolve(__dirname, '../../'),
-  typescript: {
-    ignoreBuildErrors: true,
-  },
   eslint: {
     ignoreDuringBuilds: true,
   },
@@ -33,3 +29,4 @@ const nextConfig: NextConfig = {
 };
 
 export default nextConfig;
+// Orchids restart: 1767559393410
